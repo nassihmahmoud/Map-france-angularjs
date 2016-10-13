@@ -1,0 +1,25 @@
+<div id="global">
+<loading></loading>
+
+<div ng-show="cestbon">
+      <h1>Météo France</h1>
+        <div id="vmap" class="vmap" style="width: 680px; height: 520px;" ng-click="recuprerville()"></div>
+        
+        <div  class="ville-info">
+                               
+                                <h2>Région : {{ville}}</h2>
+                                <ul>
+                                    <li>(Latitude:{{lat}} , longitude :{{lon}})</li><br />
+                                    <li><strong>Tempuratue : </strong><span>{{temp}}°C</span></li><br />
+                                   <li> <strong>Description : </strong><span>{{description}}</span></li><br />
+                                    <li><strong>Tempuratue Max : </strong><span>{{tempMax}}°C</span></li><br />
+                                   <li> <strong>Tempuratue Min :</strong><span>{{tempMin}}°C</span></li><br />
+                                    <li><strong>humidité : </strong> <span>{{humidity}}%</span></li><br />
+                                   <li> <strong>pression atmosphérique :</strong><span>{{pressure}}kPa</span></li><br />
+                                    <li><strong>vitesse du vent :</strong><span>{{speed}} m/s</span></li><br />
+                                    <li><strong>lever du soleil : </strong><span>{{sunrise}}</span></li><br />
+                                   <li> <strong>coucher du soleil : </strong> <span>{{sunset}}</span></li>
+                                </ul>
+        </div>
+</div>
+</div>

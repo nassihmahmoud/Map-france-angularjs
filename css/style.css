@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#vmap{
+	background:none !important;
+	float:left;
+}
+.ville-info{
+	float:right;
+}
+#global{
+ margin:auto;
+ width:1020px;
+}
+#global h1{
+	float:left;
+	width:100%;
+	text-align:center;
+	text-transform:uppercase;
+	border-bottom:1px solid #CCC;
+	padding-bottom:15px;
+}
+#global h2{
+	font-size:20px;
+}

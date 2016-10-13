@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Météo France</title>
+ <link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+ <link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css"/>
+</head>
+
+<body ng-app="app">
+<div ng-controller="mapController">
+
+<div ng-view></div>
+
+</div>
+
+
+<!--les fichier js-->
+<script src="build/angular.min.js" ></script>
+<script src="build/angular-route.min.js" ></script>
+<script src="js/app.js" ></script>
+<script src="js/Controller/mapController.js" ></script>
+<script src="js/directives/vmap.js" ></script>
+<script src="js/directives/loading.js" ></script>
+<script src="build/angular-openweathermap-api-factory.js"></script>
+
+<script type="text/javascript" src="build/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="build/jquery.vmap.js"></script>
+<script type="text/javascript" src="build/jquery.vmap.france.js" charset="utf-8"></script>
+
+<script src="build/moment/moment.js"></script>
+<script src="build/moment-timezone/builds/moment-timezone-with-data-2010-2020.js"></script>
+
+<!--fin js-->
+</body>
+</html>
